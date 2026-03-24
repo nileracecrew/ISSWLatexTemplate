@@ -236,7 +236,7 @@
 \renewcommand\maketitle{%
   \if@twocolumn
     \twocolumn[%
-      \thispagestyle{plain}%
+      \thispagestyle{empty}%
       \vspace*{-1.5\baselineskip}%
       \begin{center}%
         % Title
