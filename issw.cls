@@ -82,6 +82,7 @@
   style=authoryear,  % author–year citations like NHESS
   giveninits=true,   % authors as "Smith, J. A."
   uniquename=init,   % resolve conflict with giveninits
+  uniquelist=false,
   maxcitenames=2,    % in-text: Smith & Miller, or Smith et al.
   maxbibnames=99,    % full author list in references
   sorting=nyt,       % name, year, title
