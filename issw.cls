@@ -351,6 +351,7 @@
     \centering
     \caption{#3}%
     \label{#2}%
+    \vspace{0.25\abovecaptionskip}%
     \begin{tabular}{#4}%
 }{%
     \end{tabular}%
