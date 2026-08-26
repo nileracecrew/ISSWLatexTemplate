@@ -35,6 +35,7 @@
   top=2.5cm,
   bottom=2.5cm
 ]{geometry}
+\pagestyle{empty}               % no page numbers (proceedings will add them)
 \setlength\columnsep{0.8cm}   % space between columns (0.8 cm)
 \setlength\parindent{0pt}       % no first-line indent
 \setlength\parskip{4pt plus 1pt minus 1pt} % small vertical space between paragraphs
@@ -275,7 +276,7 @@
       \end{center}%
     ]%
   \else
-    \thispagestyle{plain}%
+    \thispagestyle{empty}%
     \vspace*{-1.5\baselineskip}%
     \begin{center}%
       {\normalfont\mdseries\upshape
@@ -376,4 +377,3 @@
 
 
 \makeatother
-
